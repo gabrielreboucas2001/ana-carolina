@@ -174,7 +174,7 @@
         const cidadeCliente = data.city || 'sua cidade';
         const estadoCliente = data.region || 'seu estado';
         locationInfo.textContent = `Local de atendimento: ${cidadeCliente}, ${estadoCliente}`;
-        const mensagem = `Olá, sou de ${cidadeCliente}, ${estadoCliente} e quero agendar um encontro com a Ana Carolina Coelhinha.`;
+        const mensagem = `Olá, sou de ${cidadeCliente}, ${estadoCliente} e quero agendar um encontro com Ana Carolina (Coelhinha)`;
         whatsappLink.href = `https://wa.me/5511920553062?text=${encodeURIComponent(mensagem)}`;
       } catch (error) {
         locationInfo.textContent = `Não foi possível detectar sua localização.`;
